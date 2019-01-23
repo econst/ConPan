@@ -1,6 +1,6 @@
 # ConPan: Analyze your Docker container in peace
 
-ConPan inspect Docker containers and extract their installed packages to analyze them. 
+ConPan inspects Docker containers and extracts their installed packages to analyze them. 
 
 ConPan analyzes packages technical lag, vulnerabilities and other type of bugs.
 The output is a four pandas dataframes that contain general information about the analyzed DockerHub image, information about installed packages, how outdated they are, their vulnerabilities and other kind of bugs.
@@ -71,7 +71,7 @@ Results about installed packages in:  127labs/blog
 ![alt text](https://raw.githubusercontent.com/neglectos/ConPan/master/analysis/Figure_1.png)
 
 ### From Python
-ConPan can be embedded in your Python scripts. Again, the effort of using it is minimum.
+ConPan can be embedded in your Python scripts. Again, the effort of using it is minimal.
 
 ```
 #! /usr/bin/env python3
